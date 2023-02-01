@@ -29,7 +29,7 @@ public class Program {
 			System.out.println("New balance: " + account.getBalance());
 		}
 		catch(DomainException e) {
-			System.out.println(e.getMessage());;
+			System.out.println("Withdraw error: " + e.getMessage());;
 		}
 		
 		input.close();
